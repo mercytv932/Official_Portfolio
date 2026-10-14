@@ -1,3 +1,5 @@
+import yosefImage from "../assets/profile.pic.png";
+
 function Hero() {
   return (
     <div className="heroContainer">
@@ -15,7 +17,7 @@ function Hero() {
         </div>
       </div>
       <div className="heroImage">
-        <img src="/profile.pic.png" alt="Yosef Ergano" />
+        <img src={yosefImage} alt="Yosef Ergano" />
       </div>
     </div>
   );
