@@ -13,8 +13,9 @@ import TailwindCSSIcon from "../assets/skills-icons/Tailwind CSS.svg";
 
 function Skills() {
   return (
-    <div>
-      <h3>Skills</h3>
+    <section className="skills" id="skills">
+      <p>SkILLS & TECH STACK</p>
+      <p>Technologies I work with:</p>
       <div className="skill-item">
         <img src={html5Icon} alt="" />
         <span>HTML5</span>
@@ -67,7 +68,7 @@ function Skills() {
         <img src={TailwindCSSIcon} alt="" />
         <span>Tailwind CSS</span>
       </div>
-    </div>
+    </section>
   );
 }
 

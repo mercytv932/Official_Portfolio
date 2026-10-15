@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import ProjectCard from "./components/ProjectCard";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
@@ -11,11 +10,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <ProjectCard />
-      <About />
-      <Projects />
-      <Skills />
+      <main>
+        <Hero />
+        <Projects />
+        <div className="about-and-skills">
+          <About />
+          <Skills />
+        </div>
+      </main>
       <Contact />
     </div>
   );

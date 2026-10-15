@@ -5,7 +5,7 @@ import expenseTracker from "../assets/expenseTracker.png";
 import projectManagement from "../assets/projectManagement.png";
 function Projects() {
   return (
-    <div className="projects">
+    <section className="projects" id="projects">
       <h2>My Projects</h2>
 
       <div className="projects-grid">
@@ -13,7 +13,7 @@ function Projects() {
           image={projectManagement}
           title="TaskFlow — Project Management App"
           description="Built a project management app that helps users organize projects, manage tasks, track progress, and 
-          stay on top of their work through a centralized dashboard.Copy description."
+          stay on top of their work through a centralized dashboard."
           liveUrl="https://pro-tasker-frontend-2tg4.onrender.com/login"
           githubUrl="https://github.com/mercytv932/Pro_Tasker"
         />
@@ -36,7 +36,7 @@ function Projects() {
           githubUrl="https://github.com/mercytv932/Expense-Tracker"
         />
       </div>
-    </div>
+    </section>
   );
 }
 

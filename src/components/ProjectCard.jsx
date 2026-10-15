@@ -1,7 +1,7 @@
 function ProjectCard({ title, description, image, liveUrl, githubUrl }) {
   return (
-    <div className="project-card">
-      <img src={image} alt={title} />
+    <article className="project-card">
+      <img src={image} alt={`${title} project's card image`} />
       <h3>{title}</h3>
       <p>{description}</p>
 
@@ -13,7 +13,7 @@ function ProjectCard({ title, description, image, liveUrl, githubUrl }) {
           GitHub
         </a>
       </div>
-    </div>
+    </article>
   );
 }
 
