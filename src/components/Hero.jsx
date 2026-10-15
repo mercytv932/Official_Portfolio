@@ -1,3 +1,4 @@
+import { Mail } from "lucide-react";
 import yosefImage from "../assets/profile.pic.png";
 
 function Hero() {
@@ -8,12 +9,21 @@ function Hero() {
         <h1>Yosef Ergano</h1>
         <h2>Aspiring Full-Stack Software Engineer</h2>
         <p>
-          I build modern web applications using JavaScript, React, and Node.js,
-          focused on solving real-world problems.
+          I build modern web applications using React, Node.js, and MongoDB. I
+          enjoy solving real-world problems and turning ideas into functional,
+          user-friendly products.
         </p>
+        <a href="#contact">
+          {" "}
+          <Mail size={30} /> Contact Me
+        </a>
         <div className="heroBtns">
-          <button>View My Work</button>
-          <button>Contact Me</button>
+          <a href="">Github</a>
+          <a href="">Linkedln</a>
+          <a href="">
+            <Mail size={30} />
+            yo.ergano@gmail.com
+          </a>
         </div>
       </div>
       <div className="heroImage">
