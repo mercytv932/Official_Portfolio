@@ -29,7 +29,7 @@ function Skills() {
   return (
     <section className="skills" id="skills">
       <p>SkILLS & TECH STACK</p>
-      <h2>Technologies I work with:</h2>
+      <h3>Technologies I work with:</h3>
 
       <div className="skills-grid">
         {skills.map((skill) => (

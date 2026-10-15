@@ -13,9 +13,9 @@ function Hero() {
           enjoy solving real-world problems and turning ideas into functional,
           user-friendly products.
         </p>
-        <a className="contact-btn" href="#contact">
+        {/* <a className="contact-btn" href="#contact">
           <Mail size={20} aria-hidden="true" />
-        </a>
+        </a> */}
         <div className="heroBtns">
           <a
             className="github"
