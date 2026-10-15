@@ -3,19 +3,14 @@ function About() {
     <div className="aboutContainer" id="about">
       <h1>About Me</h1>
       <p>
-        I'm Yosef Ergano, a Software Engineer passionate about building clean
-        and functional web applications. I specialize in frontend development
-        and have built multiple real-world projects using HTML, CSS, JavaScript,
-        React and TypeScript, while continuously growing my backend skills.
+        I'm a Software Engineer passionate about building clean and functional
+        web applications. I specialize in both frontend and backend development
+        and have built multiple real-world projects using React, Node.Js,
+        MongoDB, and Express.
+        <br />
+        I'm always learning, improving, and excited to take on new challenges
+        that help me grow as a developer.
       </p>
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul>
     </div>
   );
 }
