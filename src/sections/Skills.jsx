@@ -12,61 +12,32 @@ import PostmanIcon from "../assets/skills-icons/Postman.svg";
 import TailwindCSSIcon from "../assets/skills-icons/Tailwind CSS.svg";
 
 function Skills() {
+  const skills = [
+    { name: "HTML5", icon: html5Icon },
+    { name: "CSS3", icon: css3Icon },
+    { name: "JavaScript", icon: JavaScriptIcon },
+    { name: "TypeScript", icon: TypeScriptIcon },
+    { name: "React", icon: ReactIcon },
+    { name: "Node.js", icon: NodejsIcon },
+    { name: "Express", icon: ExpressIcon },
+    { name: "MongoDB", icon: MongoDBIcon },
+    { name: "Git", icon: GitIcon },
+    { name: "GitHub", icon: GitHubIcon },
+    { name: "Postman", icon: PostmanIcon },
+    { name: "Tailwind CSS", icon: TailwindCSSIcon },
+  ];
   return (
     <section className="skills" id="skills">
       <p>SkILLS & TECH STACK</p>
-      <p>Technologies I work with:</p>
-      <div className="skill-item">
-        <img src={html5Icon} alt="" />
-        <span>HTML5</span>
-      </div>
-      <div className="skill-item">
-        <img src={css3Icon} alt="" />
-        <span>CSS3</span>
-      </div>
+      <h2>Technologies I work with:</h2>
 
-      <div className="skill-item">
-        <img src={JavaScriptIcon} alt="" />
-        <span>JavaScript</span>
-      </div>
-      <div className="skill-item">
-        <img src={TypeScriptIcon} alt="" />
-        <span>TypeScript</span>
-      </div>
-
-      <div className="skill-item">
-        <img src={ReactIcon} alt="" />
-        <span>React</span>
-      </div>
-
-      <div className="skill-item">
-        <img src={NodejsIcon} alt="" />
-        <span>Node.js</span>
-      </div>
-
-      <div className="skill-item">
-        <img src={ExpressIcon} alt="" />
-        <span>Express</span>
-      </div>
-      <div className="skill-item">
-        <img src={MongoDBIcon} alt="" />
-        <span>MongoDB</span>
-      </div>
-      <div className="skill-item">
-        <img src={GitIcon} alt="" />
-        <span>Git</span>
-      </div>
-      <div className="skill-item">
-        <img src={GitHubIcon} alt="" />
-        <span>GitHub</span>
-      </div>
-      <div className="skill-item">
-        <img src={PostmanIcon} alt="" />
-        <span>Postman</span>
-      </div>
-      <div className="skill-item">
-        <img src={TailwindCSSIcon} alt="" />
-        <span>Tailwind CSS</span>
+      <div className="skills-grid">
+        {skills.map((skill) => (
+          <div className="skill-item" key={skill.name}>
+            <img src={skill.icon} alt="" aria-hidden="true" />
+            <span>{skill.name}</span>
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -17,8 +17,11 @@ function App() {
           <About />
           <Skills />
         </div>
+        <Contact />
       </main>
-      <Contact />
+      <footer className="footer">
+        <p>© 2026 Yosef Ergano.</p>
+      </footer>
     </div>
   );
 }
