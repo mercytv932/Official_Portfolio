@@ -9,8 +9,8 @@ function Navbar() {
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-        <a href="/resume.pdf" download>
-          Resume <Download size={30} />{" "}
+        <a href="/resume.pdf" download="Yosef_Ergano_Resume.pdf">
+          Resume <Download size={18} />{" "}
         </a>
       </div>
     </nav>
