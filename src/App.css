@@ -359,6 +359,37 @@
   line-height: 1.8;
 }
 
+/* The used stack and links */
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 24px 24px;
+}
+
+.project-technologies span {
+  padding: 5px 10px;
+  background: #17232c;
+  border: 1px solid rgba(100, 150, 180, 0.12);
+  border-radius: 20px;
+  color: #c4d3df;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .project-technologies {
+    gap: 6px;
+    margin: 0 20px 22px;
+  }
+
+  .project-technologies span {
+    padding: 5px 8px;
+    font-size: 10px;
+  }
+}
+
 .project-links {
   display: flex;
   flex-wrap: wrap;
