@@ -15,22 +15,29 @@ function Hero() {
         </p>
         <div className="heroBtns">
           <a
+            className="github"
             href="https://github.com/mercytv932"
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            <span>Github</span>
           </a>
 
           <a
+            className="linkedin"
             href="https://linkedin.com/in/yosefergano"
             target="_blank"
             rel="noreferrer"
           >
-            Linkedln
+            <span>Linkedln</span>
           </a>
 
-          <a href="mailto:yo.ergano@gmail.com" target="_blank" rel="noreferrer">
+          <a
+            className="email"
+            href="mailto:yo.ergano@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Mail size={30} />
             yo.ergano@gmail.com
           </a>
